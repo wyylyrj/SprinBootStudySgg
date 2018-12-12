@@ -12,9 +12,9 @@ public interface DepartmentMapper {
     public int delDeptById(Integer id);
 
     @Options(useGeneratedKeys = true,keyProperty = "id")
-    @Insert("insert into department(departmentName) values(departmentName)")
+    @Insert("insert into department(departmentName) values(#{departmentName})")
     public int insertDeptById(Department department);
 
-    @Update("update department set departmentName = #{departmentName} where id = id")
+    @Update("update department set departmentName = #{departmentName} where id = #{id}")
     public int updateDept(Department department);
 }

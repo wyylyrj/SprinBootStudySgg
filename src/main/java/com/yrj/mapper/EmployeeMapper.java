@@ -1,6 +1,5 @@
 package com.yrj.mapper;
 
-import com.yrj.bean.Department;
 import com.yrj.bean.Employee;
 import org.apache.ibatis.annotations.*;
 
@@ -14,9 +13,9 @@ public interface EmployeeMapper {
     public int delEmpById(Integer id);
 
     @Options(useGeneratedKeys = true,keyProperty = "id")
-    @Insert("insert into employee(lastName) values(lastName)")
+    @Insert("insert into employee(lastName,email,gender,dId) values(#{lastName},#{email},#{gender},#{dId})")
     public int insertEmpById(Employee employee);
 
-    @Update("update employee set lastName = #{lastName} where id = id")
+    @Update("update employee set lastName = #{lastName},email = #{email},gender=#{gender},dId=#{dId} where id = #{id}")
     public int updateEmp(Employee employee);
 }
