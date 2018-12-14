@@ -1,9 +1,11 @@
 package com.yrj;
 
 import com.yrj.bean.Article;
+import com.yrj.bean.Book;
 import com.yrj.bean.Employee;
 import com.yrj.entity.Emp;
 import com.yrj.mapper.EmployeeMapper;
+import com.yrj.repository.BookRepository;
 import com.yrj.service.EmpService;
 import io.searchbox.client.JestClient;
 import io.searchbox.core.Index;
@@ -64,6 +66,9 @@ public class SpringBootStudySggApplicationTests {
     @Autowired
     JestClient jestClient;
 
+    @Autowired
+    BookRepository bookRepository;
+
     //@Test
     public void test01(){
         //stringRedisTemplate.opsForValue().append("msg","hello");
@@ -78,7 +83,7 @@ public class SpringBootStudySggApplicationTests {
         empRedisTemplate.opsForValue().set("emp01",empById);
     }
 
-    @Test
+    //@Test
     public void sendMsg(){
         Map<String,Object> map= new HashMap<>();
         map.put("msg","这是第一条消息");
@@ -94,7 +99,7 @@ public class SpringBootStudySggApplicationTests {
         System.out.println(o);
     }
 
-    @Test
+    //@Test
     public void createExchange(){
         amqpAdmin.declareExchange(new DirectExchange("amqpadmin.exchange"));
         //amqpAdmin.declareQueue(new Queue("amqpadmin.queue",true));
@@ -102,7 +107,7 @@ public class SpringBootStudySggApplicationTests {
         System.out.println("创建完成");
     }
 
-    @Test
+    //@Test
     public void createArticle(){
         Article article = new Article();
         article.setId(1);
@@ -118,7 +123,7 @@ public class SpringBootStudySggApplicationTests {
         }
     }
 
-    @Test
+    //@Test
     public void search(){
         String json = "{\n" +
                 "\t\"query\" : {\n" +
@@ -137,6 +142,12 @@ public class SpringBootStudySggApplicationTests {
     }
 
     @Test
+    public void bookTest(){
+        Book book = new Book();
+        bookRepository.index(book);
+    }
+
+    //@Test
     public void contextLoads() {
         logger.trace("这是trace日志...");
         logger.debug("这是debug日志...");
