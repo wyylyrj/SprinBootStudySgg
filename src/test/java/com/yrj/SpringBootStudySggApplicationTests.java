@@ -23,6 +23,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import java.io.IOException;
@@ -68,6 +70,9 @@ public class SpringBootStudySggApplicationTests {
 
     @Autowired
     BookRepository bookRepository;
+
+    @Autowired
+    JavaMailSenderImpl javaMailSender;
 
     //@Test
     public void test01(){
@@ -145,6 +150,16 @@ public class SpringBootStudySggApplicationTests {
     public void bookTest(){
         Book book = new Book();
         bookRepository.index(book);
+    }
+
+    @Test
+    public void sendMail(){
+        SimpleMailMessage message = new SimpleMailMessage();
+        message.setSubject("通知");
+        message.setText("今晚更新系统");
+        message.setText("461318558@qq.com");
+        message.setFrom("wyylyrj@163.com");
+        javaMailSender.send(message);
     }
 
     //@Test
