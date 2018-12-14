@@ -4,12 +4,12 @@ spring:
     schema-password: 870313
     data-username: root
     data-password: 870313
-    platform: mybatis
+    platform: spring
     schema: classpath:sql/schema-*.sql
     continue-on-error: true
     username: root
     password: 870313
-    url: jdbc:mysql://192.168.1.43:3306/mybatis
+    url: jdbc:mysql://192.168.1.30:3306/spring
     #url: jdbc:mysql://219.139.41.213:3306/mybatis
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource

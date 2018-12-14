@@ -1,0 +1,1336 @@
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select user0_.id as id1_0_0_, user0_.pass_word as pass_wor2_0_0_, user0_.user_name as user_nam3_0_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [6]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 10.566999 millis. select user0_.id as id1_0_0_, user0_.pass_word as pass_wor2_0_0_, user0_.user_name as user_nam3_0_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, pass_word, user_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [6, 123456, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 6.49667 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, lastName, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 8.361168 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, lastName, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 5.352975 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, lastName, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 191.066872 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 41.454309 millis. alter table mybatis.employee add column last_name varchar(50)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50000} query executed. 7.540683 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 107.767458 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 38.545042 millis. alter table mybatis.employee add column last_name varchar(50)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50000} query executed. 8.021344 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 171.402798 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 36.088874 millis. alter table mybatis.employee add column last_name varchar(50)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50000} query executed. 8.207114 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 159.93489 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 32.786922 millis. alter table mybatis.employee add column last_name varchar(50)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 167.506534 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 48.19565 millis. alter table mybatis.employee add column last_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 96.530629 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} closed
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 10.153925 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 11.695591 millis. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} Types : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50001} query executed. 3.195851 millis. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} open
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} closed
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [2]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50002} query executed. 4.511723 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} open
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 11.056723 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20001} Types : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50001} query executed. 3.64253 millis. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} open
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} closed
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 10.218869 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [2]
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50001} query executed. 3.798093 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} open
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50001} closed
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20001} created. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20001} Types : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20001, rs-50002} query executed. 3.294399 millis. select emp0_.id as id1_1_, emp0_.d_id as d_id2_1_, emp0_.email as email3_1_, emp0_.gender as gender4_1_, emp0_.last_name as last_nam5_1_ from employee emp0_
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50002} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 6.136457 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, last_name, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, aaa, aaa, 1, 1]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 15.856162 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, last_name, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, aaa, aaa, 1, 1]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 11.328958 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, last_name, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, aaa, aaa, 1, 1]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 10.140332 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, last_name, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, aaa, aaa, 1, 1]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select * from employee where id = ?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} executed. 5.150214 millis. select * from employee where id = ?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, last_name, email, gender, d_id]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, aaa, aaa, 1, 1]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 7.982453 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} commited
+DEBUG main druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 9.529027 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG main druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG main druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG main druid.sql.Connection - {conn-10005} commited
+DEBUG main druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Statement - {conn-10005, pstmt-20000} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [2]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 10.748616 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 11.490186 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 11.78319 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [1, 1, aaa, 1, aaa]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} created. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [2]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 9.43652 millis. select emp0_.id as id1_1_0_, emp0_.d_id as d_id2_1_0_, emp0_.email as email3_1_0_, emp0_.gender as gender4_1_0_, emp0_.last_name as last_nam5_1_0_ from employee emp0_ where emp0_.id=?
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, d_id, email, gender, last_name]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Result: [2, 2, bbb, 2, bbb]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} created. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [1]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50000} query executed. 95.235003 millis. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} Header: [id, pass_word, user_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, pstmt-20001} created. insert into user (pass_word, user_name) values (?, ?)
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [null, null]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, pstmt-20001} update executed. effort 1. 30.949564 millis. insert into user (pass_word, user_name) values (?, ?)
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} Header: [GENERATED_KEY]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} Result: [7]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50001} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [7]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50002} query executed. 3.772034 millis. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50002} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50002} Header: [id, pass_word, user_name]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50002} Result: [7, null, null]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50002} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20000} Parameters : [6]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20000} Types : [INTEGER]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20000, rs-50003} query executed. 2.803539 millis. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50003} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50003} Header: [id, pass_word, user_name]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50003} Result: [6, 123456, aaa]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10005, pstmt-20000, rs-50003} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10005, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} setAutoCommit false
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20001} Parameters : [null, null]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20001} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20001} update executed. effort 1. 3.923067 millis. insert into user (pass_word, user_name) values (?, ?)
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50004} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50004} Header: [GENERATED_KEY]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50004} Result: [8]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10005, pstmt-20001, rs-50004} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10005, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} commited
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} setAutoCommit true
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10005} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10004} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10003} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10002} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10001} closed
+DEBUG Druid-ConnectionPool-Create-865744496 druid.sql.Connection - {conn-10006} connected
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10006} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10006} setAutoCommit false
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10006, pstmt-20000} created. insert into user (pass_word, user_name) values (?, ?)
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10006, pstmt-20000} Parameters : [null, null]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10006, pstmt-20000} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10006, pstmt-20000} update executed. effort 1. 127.672991 millis. insert into user (pass_word, user_name) values (?, ?)
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10006, pstmt-20000, rs-50000} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10006, pstmt-20000, rs-50000} Header: [GENERATED_KEY]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10006, pstmt-20000, rs-50000} Result: [9]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10006, pstmt-20000, rs-50000} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10006, pstmt-20000} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10006} commited
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10006} setAutoCommit true
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10006} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10006} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10006} setAutoCommit false
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, pstmt-20001} created. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, pstmt-20001} Parameters : [6]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, pstmt-20001} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, pstmt-20001, rs-50001} query executed. 2.830725 millis. select user0_.id as id1_2_0_, user0_.pass_word as pass_wor2_2_0_, user0_.user_name as user_nam3_2_0_ from user user0_ where user0_.id=?
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10006, pstmt-20001, rs-50001} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10006, pstmt-20001, rs-50001} Header: [id, pass_word, user_name]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10006, pstmt-20001, rs-50001} Result: [6, 123456, aaa]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10006, pstmt-20001, rs-50001} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, pstmt-20001} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10006} commited
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10006} setAutoCommit true
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10006} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG Thread-2 druid.sql.Connection - {conn-10001} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10002} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10003} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10004} closed
+DEBUG Thread-2 druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10001} closed
+DEBUG main druid.sql.Connection - {conn-10002} closed
+DEBUG main druid.sql.Connection - {conn-10003} closed
+DEBUG main druid.sql.Connection - {conn-10004} closed
+DEBUG main druid.sql.Connection - {conn-10005} closed
+DEBUG main druid.sql.Connection - {conn-10001} connected
+DEBUG main druid.sql.Connection - {conn-10002} connected
+DEBUG main druid.sql.Connection - {conn-10003} connected
+DEBUG main druid.sql.Connection - {conn-10004} connected
+DEBUG main druid.sql.Connection - {conn-10005} connected
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Connection - {conn-10005} pool-recycle
+DEBUG main druid.sql.Connection - {conn-10005} pool-connect
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} created
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 1034.0352 millis. alter table mybatis.department add column department_name varchar(255)
+DEBUG main druid.sql.Statement - {conn-10005, stmt-20000} executed. 234.1343 millis. create table user (id integer not null auto_increment, pass_word varchar(20), user_name varchar(50), primary key (id)) engine=MyISAM
